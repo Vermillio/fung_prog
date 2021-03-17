@@ -1,0 +1,21 @@
+module Views where
+-- 
+-- import Web.Scotty
+-- import Web.Scotty.Internal.Types
+-- import SQLModels.Student
+--
+-- viewStudents :: [Student] -> ActionM ()
+-- viewStudents s = json s
+--
+-- viewStudent :: Maybe Student -> ActionM ()
+-- viewStudent Nothing = json ()
+-- viewStudent (Just s) = json s
+--
+-- createdStudent :: Maybe Student -> ActionM ()
+-- createdStudent s = json ()
+--
+-- updatedStudent :: Maybe Student -> ActionM ()
+-- updatedStudent s = json ()
+--
+-- deletedStudent :: String -> ActionM ()
+-- deletedStudent id = json ()
