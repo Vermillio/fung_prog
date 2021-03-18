@@ -1,12 +1,12 @@
-name:                app
+name:                Lab1 
 version:             0.1.0.0
-synopsis:            Starter kit project for Scotty Apps
-description:         Starter kit project for Scotty Apps
-homepage:            https://github.com/dmjio/scotty-starter
+synopsis:            Informational system for individual work with students
+description:         Informational system for individual work with students
+homepage:            https://github.com/Vermillio/fung_prog
 license:             AllRightsReserved
-author:              Your Name
-maintainer:          your.name@gmail.com
-copyright:           Your Name (c) 2015-2018
+author:              Anna Khodyreva
+maintainer:          morganas.scream@gmail.com
+copyright:           Anna Khodyreva (c) 2021
 category:            Web
 build-type:          Simple
 cabal-version:       >= 1.10
@@ -14,11 +14,7 @@ cabal-version:       >= 1.10
 executable app
   main-is:             Main.hs
   other-extensions:    OverloadedStrings
-  other-modules:       Client.CSS
-                       Controllers.Home
-                       Views.Home
-                       Views.Utils
-                       SQLModels.SQLModel
+  other-modules:       SQLModels.SQLModel
                        SQLModels.Student
                        SQLModels.Teacher
                        SQLModels.Group
@@ -46,4 +42,4 @@ executable app
 
 source-repository head
    type: git
-   location: https://github.com/scotty-web/scotty-starter
+   location: https://github.com/Vermillio/fung_prog
