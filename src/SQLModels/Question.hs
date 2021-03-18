@@ -2,7 +2,7 @@
 
 module SQLModels.Question where
 
-import SQLModels.SQLModel
+import SQLModel
 import Utils
 
 import Data.List

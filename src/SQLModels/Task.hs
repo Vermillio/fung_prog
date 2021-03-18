@@ -2,7 +2,7 @@
 
 module SQLModels.Task where
 
-import SQLModels.SQLModel
+import SQLModel
 import Utils
 
 import Data.List

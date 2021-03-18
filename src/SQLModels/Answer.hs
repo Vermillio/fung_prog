@@ -2,7 +2,7 @@
 
 module SQLModels.Answer where
 
-import SQLModels.SQLModel
+import SQLModel
 import Utils
 
 import Data.List

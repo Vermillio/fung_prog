@@ -2,7 +2,7 @@
 
 module SQLModels.Theme where
 
-import SQLModels.SQLModel
+import SQLModel
 import Utils
 
 import Data.List
@@ -20,7 +20,7 @@ import Database.MySQL.Base
 -- setThemeName :: Theme -> String -> Theme
 -- setThemeName theme = makeTheme (themeId theme)
 --
--- instance SQLModels.SQLModel Theme where
+-- instance SQLModel Theme where
 --
 --   get conn themeId = do
 --     s <- prepareStmt conn "SELECT * FROM `themes` where themes.id = ?"
