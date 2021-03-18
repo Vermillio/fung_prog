@@ -2,7 +2,7 @@
 
 module SQLModels.ThemeSource where
 
-import SQLModel
+import SQLModels.SQLModel
 import Utils
 
 import Data.List
@@ -23,7 +23,7 @@ setThemeSourceThemeId themeSource themeId = makeThemeSource (themeSourceId theme
 setThemeSourceLink :: ThemeSource -> String -> ThemeSource
 setThemeSourceLink themeSource link = makeThemeSource (themeSourceId themeSource) (themeSourceThemeId themeSource) link
 
--- instance SQLModel ThemeSource where
+-- instance SQLModels.SQLModel ThemeSource where
 --
 --   get conn themeSourceId = do
 --     s <- prepareStmt conn "SELECT * FROM `themeSources` where themeSources.id = ?"
